@@ -55,7 +55,7 @@ IF(UNIX)
         IF(STONESENSE_INTERNAL_DYLIB)
             FILE(DOWNLOAD http://topazgryphon.org/~tcollett/df/allegro-5.0.11-osx.tar.bz2
                           ${stonesense_SOURCE_DIR}/allegro-5.0.11-osx.tar.bz2
-                          EXPECTED_MD5 c531eb16f2530e1168116fcbce7644df)
+                          EXPECTED_MD5 40fe7caa6fec84d5e7a7dd6f642c80a2)
             execute_process(COMMAND tar xjf ${stonesense_SOURCE_DIR}/allegro-5.0.11-osx.tar.bz2
                             WORKING_DIRECTORY ${stonesense_SOURCE_DIR})
             SET(PROJECT_LIBS
